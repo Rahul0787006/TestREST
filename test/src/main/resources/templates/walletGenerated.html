@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"></meta>
+  <title>B-Exchange</title>
+</head>
+<body style="background-color: #f5f3f3;">
+	<table width="600" align="center" cellspacing="0" cellpadding="0">
+		<tr>
+			<td style="padding: 30px 0px">
+				<img th:src="${imgUrl}+'/logo.png'"></img>
+			</td>
+		</tr>
+		<tr style="background:  #375269;">
+			<td style="color: #fff; padding: 10px 20px; font-size: 20px; font-family: verdana;"><span th:text="${request}"></span></td>
+			<td style="padding: 10px 20px; float: right">
+				<img th:src="${imgUrl}+'/wallet.png'"></img>
+			</td>
+		</tr>
+		<tr>
+			<td style="background: #fff; color: #858383; line-height: 22px; background: #fff; font-family: verdana; padding: 9px 20px 45px 20px; font-size: 13px;" colspan="3"><span th:text="${text}"></span> <b th:text="${walletType}"></b></td>
+		</tr>
+
+		<tr>
+			<td style="background: #fff; color: #858383; line-height: 11px; font-family: verdana; padding: 5px 20px 10px 20px; font-size: 15px;" colspan="3">Thanks</td>
+		</tr>
+		<tr>
+			<td style="background: #fff; color: #858383; line-height: 0px; background: #fff; font-family: verdana; padding: 5px 20px 10px 20px; font-size: 15px;" colspan="3">B-Exchange</td>
+		</tr>
+
+		<tr style="background: #fff;">
+			<td colspan="3">&nbsp;</td>
+		</tr>
+		<tr style="background: #fff;">
+			<td colspan="3">&nbsp;</td>
+		</tr>
+		<tr style="background: #fff;">
+			<td colspan="3">&nbsp;</td>
+		</tr>
+		<tr style="background: #2e2e2e; text-align: center;">
+			<td style="color: #8b8b8b; padding: 8px; font-size: 13px;  margin-top: 40px; font-family: verdana;" colspan="3">
+				<span style="margin-right: 15px; cursor: pointer;"><a style="color: #8b8b8b; text-decoration: none;" th:href="@{${privacyPageUrl}}" target="_blank">Privacy policy</a></span>
+				<span style="margin-right: 15px; cursor: pointer;"><a style="color: #8b8b8b; text-decoration: none;" th:href="@{${termsConditionUrl}}" target="_blank">Terms of service</a></span>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="3">&nbsp;</td>
+		</tr>
+		<tr style="text-align: center; color: #000; font-size: 13px; font-family: verdana;">
+			<td colspan="3">Copyright @B-EXCHANGE</td>
+		</tr>
+		<tr>
+			<td colspan="3">&nbsp;</td>
+		</tr>
+	</table>
+</body>
+</html>
